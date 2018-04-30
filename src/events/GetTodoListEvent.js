@@ -1,8 +1,8 @@
-const id = "GetTodoListEvent";
+const eventName = "GetTodoListEvent";
 
 export default function GetTodoListEvent(success, error, message, list) {
   return {
-    id,
+    eventName,
     success,
     error,
     message,

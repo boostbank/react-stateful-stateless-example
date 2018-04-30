@@ -1,8 +1,8 @@
-const eventName = "SelectTodoEvent";
+const id = "SelectTodoEvent";
 
 export default function SelectTodoEvent(todo) {
   return {
-    eventName,
+    id,
     todo
   };
 }

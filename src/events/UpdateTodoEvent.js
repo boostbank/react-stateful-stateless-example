@@ -1,8 +1,8 @@
-const eventName = "UpdateTodoEvent";
+const id = "UpdateTodoEvent";
 
 export default function UpdateTodoEvent(success, error, message, list) {
   return {
-    eventName,
+    id,
     success,
     error,
     message,

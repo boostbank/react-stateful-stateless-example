@@ -69,12 +69,7 @@ export default class TodoComponent extends React.Component {
         i++;
         const todoItem = { i, todo };
         return (
-          <h4
-            key={i}
-            onClick={() => {
-              dispatch(SelectTodoEvent(todoItem.todo));
-            }}
-          >
+          <h4 key={i}>
             {i}: {todoItem.todo}{" "}
             <button
               onClick={() => {
